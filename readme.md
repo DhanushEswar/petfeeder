@@ -16,11 +16,17 @@
 2. [Blynk](https://blynk.io/)
 
 ### Hardwares
-1. Node MCU ESP8266- To establish the connection between the user and the feeder. ![alt text](https://5.imimg.com/data5/DW/KO/MY-43948449/esp8266-serial-wireless-module-nodemcu-v3-lua-wifi-internet-500x500.jpg)
+1. Node MCU ESP8266- To establish the connection between the user and the feeder.
 
-2. Servo Motor- To feed the Pet. ![alt text](https://robu.in/wp-content/uploads/2017/09/IMG_0521.jpg)
+![alt text](https://5.imimg.com/data5/DW/KO/MY-43948449/esp8266-serial-wireless-module-nodemcu-v3-lua-wifi-internet-500x500.jpg)
 
-3. LCD Display- To show the Last feed time. ![alt text](https://raw.githubusercontent.com/DhanushEswar/pet-feeder/master/images/lcd.jpg)
+2. Servo Motor- To feed the Pet.
+
+![alt text](https://robu.in/wp-content/uploads/2017/09/IMG_0521.jpg)
+
+3. LCD Display- To show the Last feed time.
+
+![alt text](https://raw.githubusercontent.com/DhanushEswar/pet-feeder/master/images/lcd.jpg)
 
 ## Instructions
 
