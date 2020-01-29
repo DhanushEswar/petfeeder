@@ -18,15 +18,18 @@
 ### Hardwares
 1. Node MCU ESP8266- To establish the connection between the user and the feeder.
 
-![alt text](https://5.imimg.com/data5/DW/KO/MY-43948449/esp8266-serial-wireless-module-nodemcu-v3-lua-wifi-internet-500x500.jpg)
+<!-- ![alt text](https://5.imimg.com/data5/DW/KO/MY-43948449/esp8266-serial-wireless-module-nodemcu-v3-lua-wifi-internet-500x500.jpg) -->
+<img src="https://5.imimg.com/data5/DW/KO/MY-43948449/esp8266-serial-wireless-module-nodemcu-v3-lua-wifi-internet-500x500.jpg" alt="drawing" width="200"/>
 
 2. Servo Motor- To feed the Pet.
 
-![alt text](https://robu.in/wp-content/uploads/2017/09/IMG_0521.jpg)
+<img src="https://robu.in/wp-content/uploads/2017/09/IMG_0521.jpg?w=100" alt="drawing" width="200"/>
 
-3. LCD Display- To show the Last feed time.
 
-![alt text](https://raw.githubusercontent.com/DhanushEswar/pet-feeder/master/images/lcd.jpg)
+1. LCD Display- To show the Last feed time.
+
+<!-- ![alt text](https://raw.githubusercontent.com/DhanushEswar/pet-feeder/master/images/lcd.jpg) -->
+<img src="https://raw.githubusercontent.com/DhanushEswar/pet-feeder/master/images/lcd.jpg" alt="drawing" width="200"/>
 
 ## Instructions
 
@@ -38,24 +41,26 @@
 
 4. Select a Slider and set the pin as V0 and limit to 0 to 10.
 
-![alt text](https://raw.githubusercontent.com/DhanushEswar/pet-feeder/master/images/Slider.jpg)
+<!-- ![alt text](https://raw.githubusercontent.com/DhanushEswar/pet-feeder/master/images/Slider.jpg) -->
+<img src="https://raw.githubusercontent.com/DhanushEswar/pet-feeder/master/images/Slider.jpg" alt="drawing" width="200">
 
+5. Select a Button and set the output pin as V1 and set limit to 0-1 and set mode as Push. 
 
-1. Select a Button and set the output pin as V1 and set limit to 0-1 and set mode as Push. 
+<img src="https://raw.githubusercontent.com/DhanushEswar/pet-feeder/master/images/Slider.jpg" alt="drawing" width="200">
 
-![alt text](https://github.com/DhanushEswar/pet-feeder/blob/master/images/Button.jpg)
+6. Select a Timer and set the Output pin as V1.
 
-
-1. Select a Timer and set the Output pin as V1.
-
-![alt text](https://raw.githubusercontent.com/DhanushEswar/pet-feeder/master/images/Timer.jpg)
+<img src="https://raw.githubusercontent.com/DhanushEswar/pet-feeder/master/images/Timer.jpg" alt="drawing" width="200" height="300">
+<!-- ![alt text](https://raw.githubusercontent.com/DhanushEswar/pet-feeder/master/images/Timer.jpg) -->
 
 > [Note: All these pins are set in code. Don't change those pins]
 
-1. Connect the LCD screen with Node MCU. [Click Here!](https://www.losant.com/blog/how-to-connect-lcd-esp8266-nodemcu)
+7. Connect the LCD screen with Node MCU. [Click Here!](https://www.losant.com/blog/how-to-connect-lcd-esp8266-nodemcu)
    
-2. Provide the necessary Power supply and Wifi credentials.
+8. Provide the necessary Power supply and Wifi credentials.
 > [Note: Refer the code... SSID name and Password: Set as ur wish]
+
+Choose the container for your pet feeder.
 
 Then,You all set... **Feeder requires uninterrupted Power supply and Wifi Connection.**
 
