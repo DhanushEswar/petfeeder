@@ -26,7 +26,7 @@
 <img src="https://robu.in/wp-content/uploads/2017/09/IMG_0521.jpg?w=100" alt="drawing" width="200"/>
 
 
-1. LCD Display- To show the Last feed time.
+3. LCD Display- To show the Last feed time.
 
 <!-- ![alt text](https://raw.githubusercontent.com/DhanushEswar/pet-feeder/master/images/lcd.jpg) -->
 <img src="https://raw.githubusercontent.com/DhanushEswar/pet-feeder/master/images/lcd.jpg" alt="drawing" width="200"/>
