@@ -25,6 +25,7 @@ void setup()
   lcd.backlight();// Enable or Turn On the backlight
   rtc.begin();
 }
+// Initializing the Loop
   void loop()
 {
   Blynk.run();
@@ -45,7 +46,7 @@ void setup()
 
 BLYNK_WRITE(V0)
 {
-   n=param.asInt();
+  n=param.asInt();
 }
 
 BLYNK_WRITE(V2)
@@ -56,20 +57,20 @@ BLYNK_WRITE(V2)
 }
 BLYNK_WRITE(V1)
 {
- j=param.asInt();
+  j=param.asInt();
   if(j==1)
   {
-  Serial.print(n);
-  servo.write(0);
-  delay(1000);
+    Serial.print(n);
+    servo.write(0);
+    delay(1000);
   }
   for(int i=1;i<=n;i++)
   {
-  Serial.print(i);
-  servo.write(180);
-  delay(1000);
-  servo.write(0);
-  delay(1000);
+    Serial.print(i);
+    servo.write(180);
+    delay(1000);
+    servo.write(0);
+    delay(1000);
   }
   lcd.clear();
   h=hour();
